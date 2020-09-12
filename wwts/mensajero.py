@@ -17,7 +17,7 @@ def iniciar_mensajero():
     if platform.system() == "Windows":
         driver = webdriver.Chrome('chromedriver.exe')
     else:
-       	driver = webdriver.Chrome('/home/iangarcia/Documentos/Shelby/resources/chromeDriver/chromedriver')
+       	driver = webdriver.Chrome()
 
 
 def send_whatssapp_message(friend_name):

@@ -4,8 +4,8 @@ def init():
 
     # User inputted info set as variables
     source = "Whatsapp"
-    username_email = "canitogarciavazquez@yahoo.com"
-    password = "Maquinadeguerra1"
+    username_email = ""
+    password = "" #Your email
     friend_name = ""
     found_page = 0
     script = ""
